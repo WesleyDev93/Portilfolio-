@@ -1,0 +1,53 @@
+
+.bodysobremim {
+
+    background: linear-gradient(45deg, red, blue,white);
+}
+
+
+img {
+    width: 1280px;
+    
+}
+
+
+.mobilesecao {
+    display: none;
+}
+
+.descricaofooter2 {
+    text-align: center;
+    color: white;
+    
+    
+}
+
+
+
+@media screen and (max-width: 414px){
+    img {
+      
+        width: 350px;
+}
+}
+
+
+
+@media screen and (max-width: 414px){
+    .bodysobremim {
+        margin:0;
+        padding:0;
+        border:0;
+    }
+        
+}
+
+
+@media screen and (max-width: 414px){
+    .descricaofooter2 {
+        font-size: 0.8em;
+        position: absolute;
+        left: 5px;
+        margin-top: 40px;
+}
+}
