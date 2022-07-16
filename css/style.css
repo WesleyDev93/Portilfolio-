@@ -1,0 +1,97 @@
+
+@import url(../css/Sobremim.css);
+@import url(../css/lista.css);
+@import url(../css/footer.css);
+@import url(../css/mobile.css);
+
+
+
+:root {
+    --background-principal: #000000;
+    --background-secundario: #F2F2F2;
+    --background-todo: violet;
+    --background-teste: #C81B1E;
+    --background-minhafoto: #00BFFF;
+
+      
+}
+
+
+.meunome {
+    color: var(--background-principal);
+    font-family: fantasy;
+    font-size: 1em;
+    position: absolute;
+    top: 30%;
+    left: 30px;
+}
+
+.mobile__p {
+    display: none;
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif; 
+
+    
+}
+
+.cabecalho {
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+      color: white;
+      font-size: 5em;  
+    }
+
+body {
+    background: linear-gradient(90deg, #00BFFF 15%, #000000 25%);
+       
+} 
+
+.menu {
+   padding: 1em;
+}
+
+.MeuLogo {
+   width: 170px;
+   float: left;
+   border: 3px solid  #87CEFA;
+   border-radius: 20px;
+   padding: 0.3em;
+   background-color: var(--background-minhafoto);
+    
+}
+
+
+
+
+.player {
+    margin-top: 50px;
+}
+
+.titulo__musica {
+    padding: 1em;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    width: 4em;
+    white-space: nowrap;
+    margin: 1em 0 0 5px;
+    font-size: 1.5em;
+}
+
+
+
+.horario {
+    border: 3px solid  white;
+    border-radius: 20px;
+    color: white;
+    width: 170px;
+    text-align: center;
+    position:absolute;
+    top: 0.5em;
+    left: 85%;
+    
+}
+

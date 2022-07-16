@@ -1,0 +1,73 @@
+.lista-itens {
+    list-style-type: circle;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    text-align: center;
+       
+}
+
+
+
+
+.lista-itens__links {
+     padding: 1em;
+     list-style-type: none;
+     place-self: flex-end;
+     color:white;
+     font-weight: bold; 
+     
+}
+
+.lista-itens__links:hover {
+        color: yellow;
+}
+
+
+.fotoliekdin {
+    width: 27px;
+}
+
+.fotogithub {
+    width: 27px;
+}
+
+.fotoalura {
+    width: 27px;
+}
+
+
+
+
+
+.lista-itens__links2 {
+    padding: 1em;
+    font-family: fantasy;
+    border: 0.5em solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 4em;
+    white-space: nowrap;
+    margin: 1em 0 0 5px;
+}
+
+
+.lista-itens__links2:hover{
+    color: yellow;
+}
+
+
+.Banner {
+    width: 650px;
+    position: absolute;
+    top: 31%;
+    left: 32%;  
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px #00BFFF;
+}
+
+.Banner:hover {
+    opacity: 30%;
+}

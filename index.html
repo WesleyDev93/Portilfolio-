@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title class="titulo">Miyashiro Portfolio</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<header>
+    <div class="MeuLogo">
+
+        <img src="images/NovaFoto.png" alt="Foto do MeuLogo" class="MeuLogo__01">
+    </div>
+
+    <div>
+        <ul class="lista-itens">
+            <li class="lista-itens__links">
+                <img src="images/Likedin.svg" alt="logo likedin" class="fotogithub">
+                <a href="https://www.linkedin.com/in/wesley-oliveira-lima-da-silva-a21a66170/">Linkedln</a>
+            </li>
+
+            <li class="lista-itens__links">
+                <img src="images/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b4ec817.2080142615351082033227.png"
+                    alt="logo likedin" class="fotoliekdin">
+                <a href="https://github.com/WesleyDev93">Github</a>
+            </li>
+
+            <li class="lista-itens__links">
+                <img src="images/logo-alura.svg" alt="logo likedin" class="fotoalura">
+                <a
+                    href="https://cursos.alura.com.br/user/wesleyoliveiralimadasilva/fullCertificate/45625eb8758c8ffca332afb0661681cd">Certificações</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="cabecalho">Portfolio</h1>
+    </div>
+
+</header>
+
+<body>
+
+    <main class="principal-main">
+        <h1 class="meunome">Wesley Miyashiro</h1>
+        <P class="mobile__p">Por: Wesley Miyashiro</P>
+       <h2 class="titulo-secundario">Informações Pessoais</h2>
+            
+        
+        <ul class="lista__2">
+            <li class="lista-itens__links2">
+                <a href="images/Curriculo Wesley (2).pdf">Curriculum</a>
+            </li>
+
+            <li class="lista-itens__links2">
+                <a href="sobremim.html">Sobre mim</a>
+            </li>
+
+
+            <li class="lista-itens__links2">
+                <a href="https://twitter.com/i/events/1054785443982643200?s=20">Horas de Lazer</a>
+            </li>
+
+            <li>
+                <p class="titulo__musica">Músicas</p>
+            </li>
+            
+            <li class="player">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1yvMUkIOTeUNtNWlWRgANS?utm_source=generator" width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </li>
+    
+
+            <li class="player">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0t1kP63rueHleOhQkYSXFY?utm_source=generator" width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </li>
+             
+            <li class="player">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3tjFYV6RSFtuktYl3ZtYcq?utm_source=generator" width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </li>
+
+            
+
+            <img src="images/O Segredo é ter fé Marcos 1123.png" alt="Foto do MeuLogo" class="Banner">
+            
+            
+        </main>
+
+    
+</body>
+
+
+<footer>
+    <div>
+      <p class="descricaofooter"> &copy; 2022 -  Desenvolvida por Wesley Miyashiro </p>
+      
+     </div>
+</footer>
+    <section class="horario">
+        <p>Horario</p>
+    <script type="text/javascript">
+        function startTime()
+        {
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        // adicione um zero na frente de números<10
+        m=checkTime(m);
+        s=checkTime(s);
+        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+        t=setTimeout('startTime()',500);
+        }
+        function checkTime(i)
+        {
+        if (i<10)
+        {
+        i="0" + i;
+        }
+        return i;
+        }
+        </script>
+        </head>
+        <body onload="startTime()">
+        <div id="txt"></div>
+        </section>
+</html>
